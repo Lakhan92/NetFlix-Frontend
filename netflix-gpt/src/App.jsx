@@ -1,10 +1,12 @@
 import Body from './components/Body.jsx';
 import Browse from './components/Browse.jsx';
+import { Provider } from 'react-redux'
+import appStore from './utils/appStore.js';
 
 function App() {
   return (
     <>
-    <Body/>
+    <Provider store={appStore}><Body/></Provider> 
     </>
    
   );

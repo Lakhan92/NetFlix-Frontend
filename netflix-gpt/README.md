@@ -76,3 +76,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Headrer
 - login form
 - Sign Up form
+- Routing for app
+- form validation
+- useRef hook
+- firebase setup
+- deploying our app to production
+- Used firbase api to add user, logged in user and sign out user
+- used redux to update state for adduser, removeuser.....(dispatch action)
+- used selector to get stored user and show sign out button only if user is logged in...
+- BugFix  : if user is not logged in and trying to access browse page then redirect to login and vice-versa.
+- Use constant.js file to have all URL.
+- Register in TMDB API and create app there so will get access token.
+- Use API from TMDB 
+
+gangule/Gangule@92
+
+#firebase setup
+-
